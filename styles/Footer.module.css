@@ -1,0 +1,41 @@
+.horizontal {
+    display: inline;
+    margin: 8px;
+    font-size: 18px;
+}
+
+.noHighlight {
+    background-color: white;
+    transition: opacity 0.3s;
+}
+
+.noHighlight:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.horizontal:hover {
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+
+    height: 2.5rem;
+    margin-bottom: 3%;
+    margin-left: 4%;
+}
+
+@media (max-width: 480px) {
+    .footer {
+        margin-bottom: 5%;
+    }
+}

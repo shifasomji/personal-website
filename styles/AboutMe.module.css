@@ -1,0 +1,13 @@
+.photo {
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    border-radius: 4px;
+    box-shadow: 10px 10px;
+}
+
+@media (max-width: 600px) {
+    .newContainer {
+        flex-direction: column;
+    }
+}
