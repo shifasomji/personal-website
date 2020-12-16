@@ -7,6 +7,13 @@ export default function NavBar({ currPage }) {
     return (
         <div className={styles.outerBar}>
             <ul className={styles.listStyle}>
+                <Link href="/">
+                    <img
+                        src="/logo_2.JPG"
+                        alt="Logo"
+                        className={styles.logo}
+                    />
+                </Link>
                 <Link href="/aboutme">
                     <li
                         className={styles.horizontal}
