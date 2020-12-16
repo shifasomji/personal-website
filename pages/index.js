@@ -9,10 +9,12 @@ import shared from "../styles/Shared.module.css";
 
 export default function Home() {
   const intros = [
-      "writing code",
+      "debugging code",
+      "analyzing data",
       "discovering projects",
       "watching shows",
       "enjoying music",
+      "playing chess"
   ];
 
   const num = Math.floor(Math.random() * intros.length);
@@ -46,7 +48,8 @@ export default function Home() {
                       <p className="animate__slideInUp">
                           I am a woman in STEM, passionate about applying technology to all 
                           aspects of our lives. I am especially interested in 
-                          the intersection of medicine and computer science.  
+                          the intersection of medicine and business 
+                          with computer science.  
                       </p>
                   </div>
               </div>
