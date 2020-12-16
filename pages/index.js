@@ -13,7 +13,7 @@ export default function Home() {
       "analyzing data",
       "discovering projects",
       "watching shows",
-      "enjoying music",
+      "listening to music",
       "playing chess"
   ];
 
@@ -36,7 +36,7 @@ export default function Home() {
                       <Typewriter
                           onInit={(typewriter) => {
                               typewriter
-                                  .pauseFor(1100)
+                                  .pauseFor(500)
                                   .typeString("Hi! I'm Shifa and I'm ")
                                   .typeString(intros[num])
                                   .start();
