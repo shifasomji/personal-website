@@ -76,7 +76,7 @@
 }
 
 .photo {
-    width: 90%;
+    width: 97%;
     /* height: 35%; */
     margin-top: 8%;
     margin-right: 5%;
@@ -102,7 +102,7 @@
 }
 
 .oval {
-    width: 500px;
+    width: 400px;
     height: 75px;
 
     border-radius: 100px / 50px;
