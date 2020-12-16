@@ -10,97 +10,70 @@ import Head from "next/head";
 
 import shared from "../styles/Shared.module.css";
 
-import { dollar } from "react-icons-kit/fa/dollar";
-import { briefcase } from "react-icons-kit/fa/briefcase";
+import { flask } from 'react-icons-kit/fa/flask'
+import { clockO } from 'react-icons-kit/fa/clockO'
 import { users } from "react-icons-kit/fa/users";
 import { heartbeat } from "react-icons-kit/fa/heartbeat";
-import { rocket } from "react-icons-kit/fa/rocket";
+import { briefcase } from 'react-icons-kit/fa/briefcase'
+import { laptop } from 'react-icons-kit/fa/laptop'
 import { home } from "react-icons-kit/fa/home";
 import { book } from "react-icons-kit/fa/book";
 import Icon from "react-icons-kit";
 
 const news = [
     {
-        date: "Summer 2021",
-        title: "Software Engineering Intern",
-        company: "Blend",
-        website: "https://blend.com/",
+        date: "Sept 2020 - Present",
+        title: "Fellow",
+        company: "Center for Innovation and Entrepreneurship",
+        website: "https://rl-cie.cmc.edu/about/",
         bodyText:
-            "Signed on to join Blend as a software engineering intern for next summer! Excited to make impact in meaningful ways!",
-        logo: "fintech",
+            "Accepted into the CIE Fellows Program at Claremont McKenna to understand how to be an innovative entrepreneur",
+        logo: "cie",
     },
     {
-        date: "October 2020-Present",
-        title: "Investment Partner",
-        company: "Dorm Room Fund",
-        website: "http://dormroomfund.com/",
+        date: "May 2020 - Present",
+        title: "Co-Founder",
+        company: "Team Time",
+        website: "https://www.linkedin.com/company/teamtime2020/?viewAsMember=true",
         bodyText:
-            "Joined Dorm Room Fund on the Boston team. Excited to invest in the next generation of startup founders on a national scale 🇺🇸",
-        logo: "vc",
+            "Co-founded TeamTime, a startup where members of a team can set group alarms for better collaboration and enhanced productivity",
+        logo: "teamtime",
     },
     {
-        date: "July 2020-Present",
-        title: "Cofounder",
-        company: "Tea Time",
-        website: "http://teatime.substack.com/",
-        bodyText:
-            "Started Tea Time with a couple of friends, a community for LGBTQ+ people interested in tech and tech adjacent industries",
-        logo: "community",
-    },
-    {
-        date: "Dec 2019-Present",
-        title: "Associate",
-        company: "Van Wickle Ventures",
-        website: "https://www.vanwickleventures.com/",
-        bodyText:
-            "Joined Van Wickle Ventures, Brown's student-run evergreen VC fund as a student associate",
-        logo: "vc",
-    },
-    {
-        date: "Nov 2019 - May 2020",
-        title: "Software Engineer and PM",
-        company: "Intus Care",
-        website: "https://intuscare.com/",
-        bodyText:
-            "Started at Intus Care as a software engineer and product manager, building out the initial MVP and ML algorithms ",
-        logo: "healthtech",
-    },
-    {
-        date: "Oct 2019",
-        title: "Participant",
-        company: "IDEO Colab",
-        website: "https://www.ideocolab.com/",
-        bodyText:
-            "Attended IDEO Colab's Makeathon in Cambridge where I helped make digital communication easier using BERT models",
-        logo: "design",
-    },
-    {
-        date: "June 2019 - Aug 2019",
-        title: "Operations Intern",
-        company: "Loftium",
-        website: "https://loftium.com/",
-        bodyText:
-            "Worked at Loftium as an Operations Intern! Joined the Renter Operations Team where I helped with maximizing Airbnb performance and created a Messenger Chatbot",
-        logo: "proptech",
-    },
-    {
-        date: "Sept 2018 - Present",
+        date: "Aug 2019 - Present",
         title: "Student",
-        company: "Brown",
-        website: "https://www.brown.edu/",
+        company: "Harvey Mudd",
+        website: "https://www.hmc.edu/about-hmc/fast-facts/",
         bodyText:
-            "Moved to Providence and started at Brown where I plan on double-majoring in Applied Math and Computer Science (wish me luck hehe)",
+            "Started at Harvey Mudd where I am majoring in Computer Science with a concentration in Cognitive Science",
         logo: "school",
+    },
+    {
+        date: "June 2018 - Aug 2018",
+        title: "RISE Scholar",
+        company: "Boston University",
+        website: "https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/practicum-track/",
+        bodyText:
+            "Through the Research in Science and Engineering program, I researched the effects of alcohol, opiates, cannabis, and benzodiazepines on the action potential of a cell",
+        logo: "rise",
+    },
+    {
+        date: "June 2017 - Aug 2017",
+        title: "Student Researcher",
+        company: "PROMYS",
+        website: "https://promys.org/",
+        bodyText:
+            "Through the Program in Mathematics for Young Scholars, I researched the Fibonacci and Lucas Sequences and their role in many patterns in nature",
+        logo: "promys",
     },
 ];
 
 const iconMap = {
     school: <Icon icon={book} className={styles.icon} />,
-    design: <Icon icon={rocket} className={styles.icon} />,
-    proptech: <Icon icon={home} className={styles.icon} />,
-    healthtech: <Icon icon={heartbeat} className={styles.icon} />,
-    fintech: <Icon icon={dollar} className={styles.icon} />,
-    vc: <Icon icon={briefcase} className={styles.icon} />,
+    promys: <Icon icon={laptop} className={styles.icon} />,
+    rise: <Icon icon={flask} className={styles.icon} />,
+    cie: <Icon icon={briefcase} className={styles.icon} />,
+    teamtime: <Icon icon={clockO} className={styles.icon} />,
     community: <Icon icon={users} className={styles.icon} />,
 };
 
@@ -118,8 +91,7 @@ export default function News() {
                 style={{ flexDirection: "column" }}
             >
                 <div className={shared.firstText}>
-                    I sometimes do things. Here's a way to keep track of some of
-                    them (nonexhaustive by any means)
+                    Here is a list of some things I've done over the last few years.
                 </div>
                 <VerticalTimeline
                     layout="1-column-left"
