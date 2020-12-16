@@ -29,7 +29,7 @@ const projects = [
     {
         name: "Domination of Queens on a Hexagonal Chess Board",
         description:
-            "Determined the minimum number of queens, referred to as the domination number, necessary to dominate all the cells on the board",
+            "Determined the minimum number of queens, referred to as the domination number, necessary to dominate all the cells on chessboards of various sizes",
         website: "/chess.pdf",
         tags: ["research"],
     },

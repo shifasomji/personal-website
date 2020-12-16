@@ -13,7 +13,7 @@ import shared from "../styles/Shared.module.css";
 import { flask } from 'react-icons-kit/fa/flask'
 import { clockO } from 'react-icons-kit/fa/clockO'
 import { users } from "react-icons-kit/fa/users";
-import { heartbeat } from "react-icons-kit/fa/heartbeat";
+import { certificate } from 'react-icons-kit/fa/certificate'
 import { briefcase } from 'react-icons-kit/fa/briefcase'
 import { laptop } from 'react-icons-kit/fa/laptop'
 import { home } from "react-icons-kit/fa/home";
@@ -27,8 +27,26 @@ const news = [
         company: "Center for Innovation and Entrepreneurship",
         website: "https://rl-cie.cmc.edu/about/",
         bodyText:
-            "Accepted into the CIE Fellows Program at Claremont McKenna to understand how to be an innovative entrepreneur",
+            "Accepted into the CIE Fellows Program at Claremont McKenna to further understand how to be an innovative entrepreneur",
         logo: "cie",
+    },
+    {
+        date: "Sept 2020 - Present",
+        title: "Secretary",
+        company: "Society of Women Engineers",
+        website: "https://hmcswe.weebly.com/",
+        bodyText:
+            "As the secretary of the Society of Women Engineers, I work together with the other officers to plan events, including a Q&A with CS and Engineering Professors and a panel with Mudd alumni",
+        logo: "community",
+    },
+    {
+        date: "June 2020",
+        title: "Student",
+        company: "Technology Entrepreneurship: Lab to Market",
+        website: "https://www.edx.org/course/technology-entrepreneurship-lab-to-market",
+        bodyText:
+            "Completed this course from Harvard University to understand how entrepreneurs build successful businesses by moving technology from lab to market",
+        logo: "harvardx",
     },
     {
         date: "May 2020 - Present",
@@ -75,6 +93,7 @@ const iconMap = {
     cie: <Icon icon={briefcase} className={styles.icon} />,
     teamtime: <Icon icon={clockO} className={styles.icon} />,
     community: <Icon icon={users} className={styles.icon} />,
+    harvardx: <Icon icon={certificate} className={styles.icon} />,
 };
 
 export default function News() {

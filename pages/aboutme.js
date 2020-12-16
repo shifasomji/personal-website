@@ -23,13 +23,13 @@ export default function AboutMe() {
                 >
                     <div style={{ marginTop: "3%" }} data-aos="fade-right">
                         <img
-                            src="./about_img1.png"
+                            src="./Shifa_2.jpg"
                             className={styles.photo}
-                            alt="This is a terrible photo of me but with cute cats"
+                            alt="A picture of me!"
                         />
                     </div>
 
-                    <div style={{ marginLeft: "4%" }} data-aos="fade-left">
+                    <div style={{ marginLeft: "18%" }} data-aos="fade-left">
                         <div
                             style={{
                                 marginTop: "5%",
@@ -39,25 +39,28 @@ export default function AboutMe() {
                             <p>
                                 I'm originally from Seattle, WA and currently attending 
                                 Harvey Mudd College in Claremont, CA. My research interests 
-                                include deep learning analysis of histopathological images, 
-                                a replacement for pathological testing of cancerous tumors 
-                                in a fraction of the time and cost of traditional methods. 
+                                include deep learning analysis of histopathological images and 
+                                predicting the presence of cognitive stress in a patient. 
                                 I also care about encouraging women to pursue their interests
                                 in STEM and giving back to my community.
                             </p>
                             <p>
                                 Other things of interest to me are 
                                 learning how to create successful 
-                                startups, critical thinking, all genres of music, 
+                                startups, the intersection of business 
+                                and technology, all genres of music, 
                                 food, chess, and tv shows.
                             </p>
                             <p>
-                                When I'm not constantly struggling with problem sets, 
+                                When I'm not constantly struggling with problem sets 
+                                or debugging code, 
                                 you can find me discovering new music,
                                 working out, or playing chess.
                             </p>
                             <p>
-                                If you're a student who is building a startup, 
+                                If you're a student who is building a startup 
+                                or is also interested in the growing field of 
+                                machine learning and artificial intelligence, 
                                 I would absolutely love to hear from you! 
                                 Feel free to
                                 email me at{" "}
