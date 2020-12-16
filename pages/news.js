@@ -104,7 +104,7 @@ export default function News() {
                 <link rel="icon" href="/icon.ico" />
             </Head>
             <NavBar currPage="news" />
-            <p className={shared.titleText}>News!</p>
+            <p className={shared.titleText}>News</p>
             <div
                 className={shared.container}
                 style={{ flexDirection: "column" }}

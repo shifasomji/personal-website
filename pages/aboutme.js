@@ -15,7 +15,7 @@ export default function AboutMe() {
             </Head>
             <NavBar currPage="aboutMe" />
             <div>
-                <p className={shared.titleText}>About Me!</p>
+                <p className={shared.titleText}>About Me</p>
                 <div
                     className={[shared.container, styles.newContainer].join(
                         " "
