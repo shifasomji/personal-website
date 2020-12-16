@@ -1,3 +1,5 @@
+Second version of my personal website. First verion is located at https://shifasomji.github.io/. The two versions will be combined into one website eventually.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
