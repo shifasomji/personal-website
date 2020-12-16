@@ -8,11 +8,12 @@ export default function NavBar({ currPage }) {
         <div className={styles.outerBar}>
             <ul className={styles.listStyle}>
                 <Link href="/">
-                    <img
-                        src="/logo_2.JPG"
-                        alt="Logo"
-                        className={styles.logo}
-                    />
+                    <li
+                        className={styles.horizontal}
+                        style={currPage == "home" ? active : notActive}
+                    >
+                        Home
+                    </li>
                 </Link>
                 <Link href="/aboutme">
                     <li
