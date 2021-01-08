@@ -109,9 +109,7 @@ export default function News() {
                 className={shared.container}
                 style={{ flexDirection: "column" }}
             >
-                <div className={shared.firstText}>
-                    Here is a list of some things I've done over the last few years.
-                </div>
+
                 <VerticalTimeline
                     layout="1-column-left"
                     className={styles.timeline}
