@@ -56,10 +56,6 @@ export default function Projects() {
                 className={shared.container}
                 style={{ flexDirection: "column" }}
             >
-                <div className={shared.firstText}>
-                    Here are a few of the projects I've worked on in the last few years.
-                </div>
-
                 <div className={styles.projectContainer}>
                     {projects.map((project, i) => {
                         return (
