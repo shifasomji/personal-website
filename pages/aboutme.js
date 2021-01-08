@@ -21,13 +21,7 @@ export default function AboutMe() {
                         " "
                     )}
                 >
-                    <div style={{ marginTop: "3%" }} data-aos="fade-right">
-                        <img
-                            src="./Shifa_2.jpg"
-                            className={styles.photo}
-                            alt="A picture of me!"
-                        />
-                    </div>
+
 
                     <div style={{ marginLeft: "18%" }} data-aos="fade-left">
                         <div
