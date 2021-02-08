@@ -24,7 +24,7 @@ import Icon from "react-icons-kit";
 const news = [
     {
         date: "Jan 2020 - Present",
-        title: "Research",
+        title: "Researcher",
         company: "AMISTAD Lab",
         website: "https://www.cs.hmc.edu/~montanez/amistad.html",
         bodyText:
