@@ -39,6 +39,14 @@ export default function AboutMe() {
                                 in STEM and giving back to my community.
                             </p>
                             <p>
+                                In high school, I founded Chess4Girls, a non-profit organization dedicated to 
+                                closing the gender gap in chess. 
+                                Its mission is to encourage girls to continue playing chess. I did so by hosting
+                                motivational workshops for all participating girls at the 
+                                Washington State Elementary Chess Championship. I also ran a monthly chess 
+                                strategy session for all girls in King County.
+                            </p>
+                            <p>
                                 Other things of interest to me are 
                                 learning how to create successful 
                                 startups, the intersection of business 
