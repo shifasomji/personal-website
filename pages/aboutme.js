@@ -36,6 +36,8 @@ export default function AboutMe() {
                                 COVID times, I am back in the rainy city of Seattle!). My research interests 
                                 include deep learning analysis of histopathological images and 
                                 predicting the presence of cognitive stress in a patient. 
+                                Recently, I am also interested in thinking about the theoretical 
+                                aspect of machine learning, with more updates coming soon!
                                 I also care about encouraging women to pursue their interests
                                 in STEM and giving back to my community.
                             </p>
