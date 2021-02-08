@@ -18,7 +18,7 @@ import { briefcase } from 'react-icons-kit/fa/briefcase'
 import { laptop } from 'react-icons-kit/fa/laptop'
 import { home } from "react-icons-kit/fa/home";
 import { book } from "react-icons-kit/fa/book";
-import { search } from "react-icons-kit/fa/searchengin";
+import { search } from "react-icons-kit/fa/search";
 import Icon from "react-icons-kit";
 
 const news = [
