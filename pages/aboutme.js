@@ -50,9 +50,20 @@ export default function AboutMe() {
                                 strategy session for all girls in King County.
                             </p>
                             <p>
+                                As this is my first semester taking more advanced 
+                                computer science courses, I am taking Computability and Logic, 
+                                Computer Systems, Software Engineering, Introduction to 
+                                Linguistics, Organizational Psychology, and 
+                                Programming Practicum. I am learning useful skills in every class, 
+                                including the extensive planning process that goes into 
+                                a large software project and understanding the psychology 
+                                of work behavior.
+                            </p>
+                            <p>
                                 Other things of interest to me are 
                                 learning how to create successful 
-                                startups, the intersection of business 
+                                startups, the history of language, 
+                                the intersection of business 
                                 and technology, all genres of music, 
                                 food, chess, and tv shows.
                             </p>
