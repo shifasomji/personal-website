@@ -32,7 +32,8 @@ export default function AboutMe() {
                         >
                             <p>
                                 I'm originally from Seattle, WA and currently attending 
-                                Harvey Mudd College in Claremont, CA. My research interests 
+                                Harvey Mudd College in Claremont, CA (although with the current 
+                                COVID times, I am back in the rainy city of Seattle!). My research interests 
                                 include deep learning analysis of histopathological images and 
                                 predicting the presence of cognitive stress in a patient. 
                                 I also care about encouraging women to pursue their interests
