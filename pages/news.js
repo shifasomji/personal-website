@@ -18,9 +18,19 @@ import { briefcase } from 'react-icons-kit/fa/briefcase'
 import { laptop } from 'react-icons-kit/fa/laptop'
 import { home } from "react-icons-kit/fa/home";
 import { book } from "react-icons-kit/fa/book";
+import { search } from "react-icons-kit/fa/searchengin";
 import Icon from "react-icons-kit";
 
 const news = [
+    {
+        date: "Jan 2020 - Present",
+        title: "Research",
+        company: "AMISTAD Lab",
+        website: "https://www.cs.hmc.edu/~montanez/amistad.html",
+        bodyText:
+            "Began work with Professor Montanez's AMISTAD Lab. Currently on the Algorithmic Search Framework team.",
+        logo: "amistad",
+    },
     {
         date: "Sept 2020 - Present",
         title: "Fellow",
@@ -87,6 +97,7 @@ const news = [
 ];
 
 const iconMap = {
+    amistad: <Icon icon={search} className={styles.icon} />,
     school: <Icon icon={book} className={styles.icon} />,
     promys: <Icon icon={laptop} className={styles.icon} />,
     rise: <Icon icon={flask} className={styles.icon} />,
