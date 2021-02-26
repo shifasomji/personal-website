@@ -46,7 +46,7 @@ const news = [
         company: "Society of Women Engineers",
         website: "https://hmcswe.weebly.com/",
         bodyText:
-            "As the secretary of the Society of Women Engineers, I work together with the other officers to plan events, including a Q&A with CS and Engineering Professors and a panel with Mudd alumni",
+            "As the secretary of the Society of Women Engineers, I work together with the other officers to plan events, including a Q&A with female CS/Engineering Professors and a panel with Mudd alumni",
         logo: "community",
     },
     {
