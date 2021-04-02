@@ -37,7 +37,7 @@ const news = [
         company: "Randall Lewis Center for Innovation and Entrepreneurship",
         website: "https://rl-cie.cmc.edu/about/",
         bodyText:
-            "Accepted into the RLCIE Fellows Program at Claremont McKenna to further understand how to be an innovative entrepreneur. Joined the Student Leadership team for 2021-22 to focus on engage Harvey Mudd students for the RLCIE events, Fellows Program, and Startup Marketplace.",
+            "Accepted into the RLCIE Fellows Program at Claremont McKenna to further understand how to be an innovative entrepreneur. Joined the Student Leadership team for 2021-22 to focus on engaging Harvey Mudd students for the RLCIE events, Fellows Program, and Startup Marketplace.",
         logo: "cie",
     },
     {
