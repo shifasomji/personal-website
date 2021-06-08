@@ -19,9 +19,19 @@ import { laptop } from 'react-icons-kit/fa/laptop'
 import { home } from "react-icons-kit/fa/home";
 import { book } from "react-icons-kit/fa/book";
 import { search } from "react-icons-kit/fa/search";
+import { desktop } from "react-icons-kit/fa/desktop"
 import Icon from "react-icons-kit";
 
 const news = [
+    {
+        date: "May 2021 - Present",
+        title: "Co-Chair",
+        company: "WACM",
+        website: "https://women.acm.org/",
+        bodyText:
+            "The purpose of the Women’s Chapter of the Association of Computing Machinery at Harvey Mudd is to engage women in computer science through the Claremont colleges through events and networking to create a strong community. We plan events for students to network with companies, professors, and other students, create a safe space for women in computer science to discuss their experiences, and engage women and allies of women in computer science and other STEM fields.",
+        logo: "wacm",
+    },
     {
         date: "Jan 2020 - Present",
         title: "Researcher",
@@ -33,15 +43,15 @@ const news = [
     },
     {
         date: "Sept 2020 - Present",
-        title: "Fellow",
+        title: "Business Development Manager",
         company: "Randall Lewis Center for Innovation and Entrepreneurship",
-        website: "https://rl-cie.cmc.edu/about/",
+        website: "https://rl-cie.cmc.edu/leadership-team/",
         bodyText:
             "Accepted into the RLCIE Fellows Program at Claremont McKenna to further understand how to be an innovative entrepreneur. Joined the Student Leadership team for 2021-22 to focus on engaging Harvey Mudd students for the RLCIE events, Fellows Program, and Startup Marketplace.",
         logo: "cie",
     },
     {
-        date: "Sept 2020 - Present",
+        date: "Sept 2020 - May 2021",
         title: "Secretary",
         company: "Society of Women Engineers",
         website: "https://hmcswe.weebly.com/",
@@ -98,6 +108,7 @@ const news = [
 
 const iconMap = {
     amistad: <Icon icon={search} className={styles.icon} />,
+    wacm: <Icon icon={desktop} className={styles.icon} />,
     school: <Icon icon={book} className={styles.icon} />,
     promys: <Icon icon={laptop} className={styles.icon} />,
     rise: <Icon icon={flask} className={styles.icon} />,
