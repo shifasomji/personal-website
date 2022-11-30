@@ -24,13 +24,12 @@ import Icon from "react-icons-kit";
 
 const news = [
     {
-        date: "Jan 2020 - Present",
-        title: "Researcher",
-        company: "AMISTAD Lab",
-        website: "https://www.cs.hmc.edu/~montanez/amistad.html",
-        bodyText:
-            "Began work with Professor Montanez's AMISTAD Lab. Currently on the Algorithmic Search Framework team.",
-        logo: "amistad",
+        date: "May 2022 - Aug 2022",
+        title: "SWE Intern",
+        company: "Meta",
+        website: "https://www.meta.com/",
+        bodyText: "Interned on the Curated Ads Data (CAD) team, responsible for building the data platform to enable transparency, control, and purpose in FB advertisements. Created a system that intelligently identified duplicate Curated Data Sources (CDS) requests for curated ads. Using my system, 20% of curated requests were identified as duplicates, significantly improving curation throughput.",
+        logo: "promys",
     },
     {
         date: "Sept 2020 - Present",
@@ -38,7 +37,7 @@ const news = [
         company: "Randall Lewis Center for Innovation and Entrepreneurship",
         website: "https://rl-cie.cmc.edu/leadership-team/",
         bodyText:
-            "Accepted into the RLCIE Fellows Program at Claremont McKenna to further understand how to be an innovative entrepreneur. Joined the Student Leadership team for 2021-22 to focus on engaging Harvey Mudd students for the RLCIE events, Fellows Program, and Startup Marketplace.",
+            "Accepted into the RLCIE Fellows Program at Claremont McKenna to further understand how to be an innovative entrepreneur. Joined the Student Leadership team as the Community Manager and Business Development Manager for Harvey Mudd to focus on engaging Harvey Mudd students for the RLCIE events, Fellows Program, and Startup Marketplace.",
         logo: "cie",
     },
     {
@@ -47,16 +46,17 @@ const news = [
         company: "Computer Science Department",
         website: "",
         bodyText:
-            "Grutored for various CS classes, which involves holding weekly sessions to help students and grade homework. Grutored for CS60 (Principles of Computer Science, Fall '20), CS70 (Data Structures, Spring '21), CS181AA (Software Engineering, Fall '21) and CS131 (Programming Languages, Spring and Fall '22).",
+            "Grutored for various CS classes, which involves holding weekly sessions to help students and grade homework. Grutored for CS60 (Principles of Computer Science, Fall 20), CS70 (Data Structures, Spring 21), CS181AA (Software Engineering, Fall 21) and CS131 (Programming Languages, Spring and Fall 22). Will be the Head Grutor for CS131 in Spring 23.",
         logo: "cie",
     },
     {
-        date: "May 2022 - Aug 2022",
-        title: "SWE Intern",
-        company: "Meta",
-        website: "",
-        bodyText: "Interned on the Curated Ads Data (CAD) team, responsible for building the data platform to enable transparency, control, and purpose in FB advertisements. Created a system that intelligently identified duplicate Curated Data Sources (CDS) requests for curated ads. Using my system, 20% of curated requests were identified as duplicates, significantly improving curation throughput.",
-        logo: "promys",
+        date: "Jan 2020 - Present",
+        title: "Researcher",
+        company: "AMISTAD Lab",
+        website: "https://www.cs.hmc.edu/~montanez/amistad.html",
+        bodyText:
+            "Researcher in Professor Montanez's AMISTAD Lab. Worked on the Algorithmic Search Framework team and currently on the Mutable Architectures and Mutational Neighborhoods team.",
+        logo: "amistad",
     },
     {
         date: "May 2021 - May 2022",
