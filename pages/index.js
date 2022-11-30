@@ -48,8 +48,7 @@ export default function Home() {
                       <p className="animate__slideInUp">
                           I am a woman in STEM, passionate about applying technology to all 
                           aspects of our lives. I am especially interested in 
-                          the intersections of healthcare, business, and biology 
-                          with computer science.  
+                          the intersection of healthcare, business, and biology with computer science.  
                       </p>
                   </div>
               </div>

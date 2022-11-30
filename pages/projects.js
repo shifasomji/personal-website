@@ -6,6 +6,12 @@ import styles from "../styles/Projects.module.css";
 
 const projects = [
     {
+        name: "The Algorithmic Search Framework",
+        description: "Compiled a statistical learning paper that assembles past work on the algorithmic search framework, a unifying theory for machine learning and artificial intelligence.",
+        website: "/The Algorithmic Search Framework.pdf",
+        tags: ["research"],
+    },
+    {
         name: "Team Time",
         description:
             "A startup where members of a team can set group alarms for better collaboration and enhanced productivity.",
