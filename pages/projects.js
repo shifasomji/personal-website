@@ -33,6 +33,12 @@ const projects = [
         tags: ["research"],
     },
     {
+        name: "The Effects of Alcohol, Opiates, Cannabis, and Benzodiazepines on Grid Cell Firing",
+        description: "Researched the effects of various drugs on the action potential of a cell. Such drugs were found to decrease grid cell firing, resulting in impaired memory and and negatively affecting the brain's navigation system. ",
+        website: "public\The Effects of Alcohol, Opiates, Cannabis, and Benzodiazepines on Grid Cell Firing.pdf",
+        tags: ["research"],
+    },
+    {
         name: "Domination of Queens on a Hexagonal Chess Board",
         description:
             "Determined the minimum number of queens, referred to as the domination number, necessary to dominate all the cells on chessboards of various sizes",
