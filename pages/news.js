@@ -90,7 +90,7 @@ const news = [
         company: "Society of Women Engineers",
         website: "https://hmcswe.weebly.com/",
         bodyText:
-            "As the secretary of the Society of Women Engineers, I work together with the other officers to plan events, including a Q&A with female CS/Engineering Professors and a panel with Mudd alumni",
+            "As the secretary of the Society of Women Engineers, I work together with the other officers to plan events, including a Q&A with female CS/Engineering Professors and a panel with Mudd alumni.",
         logo: "community",
     },
     {
@@ -99,7 +99,7 @@ const news = [
         company: "Technology Entrepreneurship: Lab to Market",
         website: "https://www.edx.org/course/technology-entrepreneurship-lab-to-market",
         bodyText:
-            "Completed this course from Harvard University to understand how entrepreneurs build successful businesses by moving technology from lab to market",
+            "Completed this course from Harvard University to understand how entrepreneurs build successful businesses by moving technology from lab to market.",
         logo: "harvardx",
     },
     {
@@ -108,7 +108,7 @@ const news = [
         company: "Team Time",
         website: "https://www.linkedin.com/company/teamtime2020/?viewAsMember=true",
         bodyText:
-            "Co-founded TeamTime, a startup where members of a team can set group alarms for better collaboration and enhanced productivity",
+            "Co-founded TeamTime, a startup where members of a team can set group alarms for better collaboration and enhanced productivity.",
         logo: "teamtime",
     },
     {
@@ -117,7 +117,7 @@ const news = [
         company: "Harvey Mudd",
         website: "https://www.hmc.edu/about-hmc/fast-facts/",
         bodyText:
-            "Started at Harvey Mudd where I am majoring in Computer Science with a concentration in Cognitive Science",
+            "Started at Harvey Mudd where I am majoring in Computer Science with a concentration in Cognitive Science.",
         logo: "school",
     },
     {
@@ -126,7 +126,7 @@ const news = [
         company: "Boston University",
         website: "https://www.bu.edu/summer/high-school-programs/rise-internship-practicum/practicum-track/",
         bodyText:
-            "Through the Research in Science and Engineering program, I researched the effects of alcohol, opiates, cannabis, and benzodiazepines on the action potential of a cell",
+            "Through the Research in Science and Engineering program, I researched the effects of alcohol, opiates, cannabis, and benzodiazepines on the action potential of a cell.",
         logo: "rise",
     },
     {
@@ -135,7 +135,7 @@ const news = [
         company: "PROMYS",
         website: "https://promys.org/",
         bodyText:
-            "Through the Program in Mathematics for Young Scholars, I researched the Fibonacci and Lucas Sequences and their role in many patterns in nature",
+            "Through the Program in Mathematics for Young Scholars, I researched the Fibonacci and Lucas Sequences and their role in many patterns in nature.",
         logo: "promys",
     },
 ];
