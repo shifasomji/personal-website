@@ -39,6 +39,7 @@ export default function Home() {
                                   .pauseFor(500)
                                   .typeString("Hi! I'm Shifa and I'm ")
                                   .typeString(intros[num])
+                                  .typeString(".")
                                   .start();
                           }}
                       />
