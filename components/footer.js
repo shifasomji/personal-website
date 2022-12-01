@@ -41,7 +41,7 @@ export default function Footer() {
                 </li>
                 <li className={styles.horizontal}>
                     <a
-                        href="public\Shifa Somji Resume.pdf"
+                        href="https://github.com/shifasomji/personal-website/blob/1d4af484619805d51c2d2da3e41cfb7c606c290c/public/Shifa%20Somji%20Resume.pdf"
                         className={styles.noHighlight}
                         target="_blank"
                     >
