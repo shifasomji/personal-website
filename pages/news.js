@@ -72,7 +72,7 @@ const news = [
         title: "Researcher",
         company: "Bush Lab",
         website: "https://sites.google.com/a/g.hmc.edu/bushlab/?pli=1",
-        description: "Developed a new simulator that evolves sequences over a user-provided phylogenetic tree to test xenoGI, a software package that identifies genomic islands, maps their origin within a clade of closely related bacteria while allowing for horizontal transfer of novel genes as well as for genomic scale deletions, duplications and inversions, and amino acid level sequence change. Such information is valuable because it helps us understand the adaptive path that has produced living species.",
+        bodyText: "Developed a new simulator that evolves sequences over a user-provided phylogenetic tree to test xenoGI, a software package that identifies genomic islands, maps their origin within a clade of closely related bacteria while allowing for horizontal transfer of novel genes as well as for genomic scale deletions, duplications and inversions, and amino acid level sequence change. Such information is valuable because it helps us understand the adaptive path that has produced living species.",
         logo: "school",
     },
     {
