@@ -68,6 +68,14 @@ const news = [
         logo: "wacm",
     },
     {
+        date: "May 2021 - Aug 2021",
+        title: "Researcher",
+        company: "Bush Lab",
+        website: "https://sites.google.com/a/g.hmc.edu/bushlab/?pli=1",
+        description: "Developed a new simulator that evolves sequences over a user-provided phylogenetic tree to test xenoGI, a software package that identifies genomic islands, maps their origin within a clade of closely related bacteria while allowing for horizontal transfer of novel genes as well as for genomic scale deletions, duplications and inversions, and amino acid level sequence change. Such information is valuable because it helps us understand the adaptive path that has produced living species.",
+        logo: "school",
+    },
+    {
         date: "Sept 2020 - May 2021",
         title: "Secretary",
         company: "Society of Women Engineers",
@@ -86,7 +94,7 @@ const news = [
         logo: "harvardx",
     },
     {
-        date: "May 2020 - Present",
+        date: "May 2020 - Aug 2020",
         title: "Co-Founder",
         company: "Team Time",
         website: "https://www.linkedin.com/company/teamtime2020/?viewAsMember=true",
