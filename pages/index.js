@@ -59,10 +59,6 @@ export default function Home() {
                       alt="photo of me"
                       className={styles.photo}
                   />
-                  <div
-                      className={styles.oval}
-                      style={{ margin: "auto" }}
-                  ></div>
               </div>
           </div>
           <Footer />
