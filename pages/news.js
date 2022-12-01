@@ -20,9 +20,18 @@ import { home } from "react-icons-kit/fa/home";
 import { book } from "react-icons-kit/fa/book";
 import { search } from "react-icons-kit/fa/search";
 import { desktop } from "react-icons-kit/fa/desktop"
+import {truck} from 'react-icons-kit/fa/truck'
 import Icon from "react-icons-kit";
 
 const news = [
+    {
+        date: "Aug 2022 - Dec 2022",
+        title: "Project Manager",
+        company: "FedEx",
+        website: "https://www.fedex.com/en-us/home.html",
+        bodyText: "Project Manager for computer science clinic project with FedEx about modeling autonomous-vehicle deliverability. Working in a team of five students to create a model to determine the necessary factors for autonomous vehicle delivery and provide an interpretable decision for FedEx as to which packages to deliver using AVs. As project manager, I plan and moderate meetings, create agendas, coordinate with the FedEx liaisons, and assign tasks and team-members within the overall project.",
+        logo: "fedex", 
+    },
     {
         date: "May 2022 - Aug 2022",
         title: "SWE Intern",
@@ -141,6 +150,7 @@ const iconMap = {
     teamtime: <Icon icon={clockO} className={styles.icon} />,
     community: <Icon icon={users} className={styles.icon} />,
     harvardx: <Icon icon={certificate} className={styles.icon} />,
+    fedex: <Icon icon={truck} className={styles.icon} />,
 };
 
 export default function News() {
