@@ -1,6 +1,7 @@
 import { linkedinSquare } from "react-icons-kit/fa/linkedinSquare";
 import { githubSquare } from "react-icons-kit/fa/githubSquare";
 import { envelope } from "react-icons-kit/fa/envelope";
+import { filePdfO } from 'react-icons-kit/fa/filePdfO'
 import Icon from "react-icons-kit";
 import styles from "../styles/Footer.module.css";
 import Typewriter from "typewriter-effect";
@@ -36,6 +37,15 @@ export default function Footer() {
                         className={styles.noHighlight}
                     >
                         <Icon icon={envelope} />
+                    </a>
+                </li>
+                <li className={styles.horizontal}>
+                    <a
+                        href="public\Shifa Somji Resume.pdf"
+                        className={styles.noHighlight}
+                        target="_blank"
+                    >
+                        <Icon icon={filePdfO} />
                     </a>
                 </li>
             </ul>
