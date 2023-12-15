@@ -50,7 +50,7 @@ export default function AboutMe() {
             </div>
             <div className={styles.tabletDiv}>
                   <img
-                      src="/Seattle.jpeg"
+                      src="/Seattle.jpg"
                       alt="seattle"
                       className={styles.photo}
                   />
