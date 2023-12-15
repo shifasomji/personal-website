@@ -32,7 +32,7 @@ export default function Home() {
                           onInit={(typewriter) => {
                               typewriter
                                   .pauseFor(250)
-                                  .changeDelay(20)
+                                  .changeDelay(30)
                                   .typeString("Hi! I'm Shifa and I am ")
                                   .typeString(intros[num])
                                   .typeString(".")
