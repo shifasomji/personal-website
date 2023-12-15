@@ -25,6 +25,22 @@ import Icon from "react-icons-kit";
 
 const news = [
     {
+        date: "Aug 2023 - Present",
+        title: "PhD Student",
+        company: "Purdue University",
+        website: "https://human-agent-interaction.github.io/HAI-website/",
+        bodyText: "",
+        logo: "school",
+    },
+    {
+        date: "May 2023 - Aug 2023",
+        title: "Platform Architecture Intern",
+        company: "Impinj",
+        website: "https://www.impinj.com/",
+        bodyText: "Primary engineer responsible for utilizing RFID to speed up sorting, routing, and tracking packages for a major shipping company. Trained and evaluated several machine learning models to determine the best system configuration parameters and increased overall accuracy of found packages to 95%. Built web/mobile UI to provide intuitive, comprehensive, and accessible package tracking summary.",
+        logo: "fedex", 
+    },
+    {
         date: "Aug 2022 - Dec 2022",
         title: "Project Manager",
         company: "FedEx",
@@ -50,21 +66,21 @@ const news = [
         logo: "cie",
     },
     {
-        date: "Sept 2020 - Present",
+        date: "Sept 2020 - May 2023",
         title: "Grutor",
         company: "Computer Science Department",
         website: "",
         bodyText:
-            "Grutored for various CS classes, which involves holding weekly sessions to help students and grade homework. Grutored for CS60 (Principles of Computer Science, Fall 20), CS70 (Data Structures, Spring 21), CS181AA (Software Engineering, Fall 21) and CS131 (Programming Languages, Spring and Fall 22). Will be the Head Grutor for CS131 in Spring 23.",
+            "Grutored for various CS classes, which involves holding weekly sessions to help students and grade homework. Grutored for CS60 (Principles of Computer Science, Fall 20), CS70 (Data Structures, Spring 21), CS181AA (Software Engineering, Fall 21) and CS131 (Programming Languages, Spring 22, Fall 22, Spring 23).",
         logo: "cie",
     },
     {
-        date: "Jan 2020 - Present",
+        date: "Jan 2020 - May 2023",
         title: "Researcher",
         company: "AMISTAD Lab",
         website: "https://www.cs.hmc.edu/~montanez/amistad.html",
         bodyText:
-            "Researcher in Professor Montanez's AMISTAD Lab. Worked on the Algorithmic Search Framework team and currently on the Mutable Architectures and Mutational Neighborhoods team.",
+            "Researcher in Professor Montanez's AMISTAD Lab. Worked on the Algorithmic Search Framework and Mutable Architectures and Neighborhoods teams.",
         logo: "amistad",
     },
     {
@@ -112,12 +128,12 @@ const news = [
         logo: "teamtime",
     },
     {
-        date: "Aug 2019 - Present",
+        date: "Aug 2019 - May 2023",
         title: "Student",
         company: "Harvey Mudd",
         website: "https://www.hmc.edu/about-hmc/fast-facts/",
         bodyText:
-            "Started at Harvey Mudd where I am majoring in Computer Science with a concentration in Cognitive Science.",
+            "Received a BS in Computer and Cognitive Science from Harvey Mudd College.",
         logo: "school",
     },
     {
