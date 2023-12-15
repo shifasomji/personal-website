@@ -15,8 +15,8 @@ export default function AboutMe() {
             </Head>
             <NavBar currPage="aboutMe" />
             <img
-                src="/Graduation.jpg"
-                alt="grad photo"
+                src="/Seattle.jpg"
+                alt="seattle photo"
                 className={styles.photo}
             />
             <div>

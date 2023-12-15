@@ -1,9 +1,10 @@
 .photo {
-    width: 30%;
+    width: 50%;
     height: auto;
-    margin-top: 4%;
+    margin-top: 1rem;
     border-radius: 10px;
-    box-shadow: 10px 10px;
+    aspect-ratio: 3/2;
+    box-shadow: 0.5rem 1rem 10px;
 }
 
 @media (max-width: 600px) {
