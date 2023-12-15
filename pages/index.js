@@ -9,12 +9,7 @@ import shared from "../styles/Shared.module.css";
 
 export default function Home() {
   const intros = [
-      "debugging code",
-      "analyzing data",
-      "discovering projects",
-      "watching shows",
-      "listening to music",
-      "playing chess"
+      "a woman in STEM"
   ];
 
   const num = Math.floor(Math.random() * intros.length);
@@ -36,8 +31,9 @@ export default function Home() {
                       <Typewriter
                           onInit={(typewriter) => {
                               typewriter
-                                  .pauseFor(500)
-                                  .typeString("Hi! I'm Shifa and I'm ")
+                                  .pauseFor(250)
+                                  .changeDelay(20)
+                                  .typeString("Hi! I'm Shifa and I am ")
                                   .typeString(intros[num])
                                   .typeString(".")
                                   .start();
@@ -47,7 +43,7 @@ export default function Home() {
 
                   <div className={styles.textBox}>
                       <p className="animate__slideInUp">
-                          I am a woman in STEM, passionate about applying technology to all 
+                          I am passionate about applying technology to all 
                           aspects of our lives. I am especially interested in 
                           the intersection of healthcare, business, and biology with computer science.  
                       </p>
