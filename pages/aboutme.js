@@ -20,7 +20,7 @@ export default function AboutMe() {
           data-aos-duration="500"
         >
           <Image
-            src={"public\Graduation.jpg"}
+            src={"/Graduation.jpg"}
             className={styles.photo}
             alt="grad photo"
             width={800}
