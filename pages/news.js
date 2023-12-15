@@ -29,7 +29,7 @@ const news = [
         title: "PhD Student",
         company: "Purdue University",
         website: "https://human-agent-interaction.github.io/HAI-website/",
-        bodyText: "",
+        bodyText: "First-year PhD student at Purdue, currently advised by Professor Sooyeon Jeong. ",
         logo: "school",
     },
     {
