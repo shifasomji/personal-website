@@ -1,7 +1,8 @@
 import { linkedinSquare } from "react-icons-kit/fa/linkedinSquare";
 import { githubSquare } from "react-icons-kit/fa/githubSquare";
 import { envelope } from "react-icons-kit/fa/envelope";
-import { filePdfO } from 'react-icons-kit/fa/filePdfO'
+import { filePdfO } from 'react-icons-kit/fa/filePdfO';
+import { twitter } from 'react-icons-kit/fa/twitter';
 import Icon from "react-icons-kit";
 import styles from "../styles/Footer.module.css";
 import Typewriter from "typewriter-effect";
@@ -23,6 +24,15 @@ export default function Footer() {
                 </li>
                 <li className={styles.horizontal}>
                     <a
+                        href="https://twitter.com/shifasomji"
+                        className={styles.noHighlight}
+                        target="_blank"
+                    >
+                        <Icon icon={twitter} />
+                    </a>
+                </li>
+                <li className={styles.horizontal}>
+                    <a
                         href="https://github.com/shifasomji"
                         className={styles.noHighlight}
                         target="_blank"
@@ -37,15 +47,6 @@ export default function Footer() {
                         className={styles.noHighlight}
                     >
                         <Icon icon={envelope} />
-                    </a>
-                </li>
-                <li className={styles.horizontal}>
-                    <a
-                        href="https://github.com/shifasomji/personal-website/blob/1d4af484619805d51c2d2da3e41cfb7c606c290c/public/Shifa%20Somji%20Resume.pdf"
-                        className={styles.noHighlight}
-                        target="_blank"
-                    >
-                        <Icon icon={filePdfO} />
                     </a>
                 </li>
             </ul>
