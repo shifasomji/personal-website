@@ -14,20 +14,11 @@ export default function AboutMe() {
                 <link rel="icon" href="/icon.ico" />
             </Head>
             <NavBar currPage="aboutMe" />
-        <div
-          className={styles.photoWrapper}
-          data-aos="fade-down"
-          data-aos-duration="500"
-        >
-          <Image
-            src="/Graduation.jpg"
-            className={styles.photo}
-            alt="grad photo"
-            width={800}
-            height={400}
-            priority={true}
-          />
-        </div>
+            <img
+                src="/Graduation.jpg"
+                alt="grad photo"
+                className={styles.photo}
+            />
             <div>
                 <p className={shared.titleText}>About Me</p>
                 <div
