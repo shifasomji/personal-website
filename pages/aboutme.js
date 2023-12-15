@@ -21,8 +21,6 @@ export default function AboutMe() {
                         " "
                     )}
                 >
-
-
                     <div style={{ marginLeft: "2%" }} data-aos="fade-left">
                         <div
                             style={{
@@ -40,7 +38,7 @@ export default function AboutMe() {
                                 In my free time, I enjoy listening to music, reading, and playing chess. Check out my <a href="https://open.spotify.com/user/maycure">Spotify</a> for my playlists and my <a href="https://www.goodreads.com/user/show/166951384-shifa">Goodreads</a> to see what I'm reading currently!
                             </p>
                             <p>
-                                If you're a student who is building a startup or is also interested in the growing field of machine learning and artificial intelligence, I would absolutely love to hear from you! Feel free to email me at{" "}
+                                I would love to hear from you! Feel free to email me at{" "}
                                 <a href="mailto:ssomji@purdue.edu">
                                     ssomji@purdue.edu
                                 </a>
@@ -50,6 +48,13 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
+            <div className={styles.tabletDiv}>
+                  <img
+                      src="/Seattle.jpeg"
+                      alt="seattle"
+                      className={styles.photo}
+                  />
+              </div>
             <Footer />
         </div>
     );
