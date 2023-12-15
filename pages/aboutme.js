@@ -14,6 +14,20 @@ export default function AboutMe() {
                 <link rel="icon" href="/icon.ico" />
             </Head>
             <NavBar currPage="aboutMe" />
+        <div
+          className={styles.photoWrapper}
+          data-aos="fade-down"
+          data-aos-duration="500"
+        >
+          <Image
+            src={"public\Graduation.jpg"}
+            className={styles.photo}
+            alt="grad photo"
+            width={800}
+            height={400}
+            priority={true}
+          />
+        </div>
             <div>
                 <p className={shared.titleText}>About Me</p>
                 <div
@@ -48,13 +62,6 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
-            <div className={styles.tabletDiv}>
-                  <img
-                      src="/Seattle.jpg"
-                      alt="seattle"
-                      className={styles.photo}
-                  />
-              </div>
             <Footer />
         </div>
     );
