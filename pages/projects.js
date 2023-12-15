@@ -12,6 +12,12 @@ const projects = [
         tags: ["research"],
     },
     {
+        name: "xenoGI",
+        description: "Developed a new simulator that evolves sequences over a user-provided phylogenetic tree, maps their origin within a clade of closely related bacteria, allowing for horizontal transfers, genomic scale deletions, duplications, inversions, and amino acid level sequence change.",
+        website: "https://link.springer.com/article/10.1186/s12859-023-05410-0",
+        tags: ["research"],
+    },
+    {
         name: "Team Time",
         description:
             "A startup where members of a team can set group alarms for better collaboration and enhanced productivity.",
