@@ -55,7 +55,7 @@ export default function Home() {
               </div>
               <div className={styles.tabletDiv}>
                   <img
-                      src="/Shifa.jpg"
+                      src="/Shifa3.jpg"
                       alt="photo of me"
                       className={styles.photo}
                   />

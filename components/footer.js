@@ -32,7 +32,7 @@ export default function Footer() {
                 </li>
                 <li className={styles.horizontal}>
                     <a
-                        href="mailto:ssomji@hmc.edu"
+                        href="mailto:ssomji@purdue.edu"
                         target="_blank"
                         className={styles.noHighlight}
                     >
