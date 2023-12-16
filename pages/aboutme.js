@@ -17,8 +17,8 @@ export default function AboutMe() {
                 <p className={shared.titleText}>About Me</p>
                 <NavBar currPage="aboutMe" />
                 <img
-                    src="/Seattle.jpg"
-                    alt="seattle photo"
+                    src="/Purdue.jpg"
+                    alt="purdue photo"
                     className={styles.photo}
                 />
                 <div
