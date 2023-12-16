@@ -37,13 +37,13 @@ export default function AboutMe() {
                                 I'm originally from Seattle, WA and currently a first-year PhD student at Purdue. I recently graduated from Harvey Mudd College in May with a B.S. in Computer and Cognitive Science. My current interests lie in full-stack robotics with a focus on enabling robots to interact with the physical world safely, fluently and naturally. I am also passionate about encouraging women to pursue their interests in STEM and giving back to my community.
                             </p>
                             <p>
-                                I am the CEO of Chess4Girls, a non-profit organization dedicated to closing the gender gap in chess. In college, I served as the secretary for the Society of Women Engineers and the co-chair for the Women's Chapter of the Association of Computing Machinery at the Claremont Colleges. Through both of these experiences, I have engaged women and allies of women in computer science and other STEM fields.
+                                I am the CEO of Chess4Girls, a non-profit organization dedicated to closing the gender gap in chess. At Harvey Mudd, I served as the secretary for the Society of Women Engineers and the co-chair for the Women's Chapter of the Association of Computing Machinery at the Claremont Colleges. Through both of these experiences, I have engaged women and allies of women in computer science and other STEM fields.
                             </p>
                             <p>
                                 In my free time, I enjoy listening to music, reading, and playing chess. Check out my <a href="https://open.spotify.com/user/maycure">Spotify</a> for my playlists and my <a href="https://www.goodreads.com/user/show/166951384-shifa">Goodreads</a> to see what I'm reading currently!
                             </p>
                             <p>
-                                I would love to hear from you! Feel free to email me at{" "}
+                                I would love to hear from you. Feel free to email me at{" "}
                                 <a href="mailto:ssomji@purdue.edu">
                                     ssomji@purdue.edu
                                 </a>
