@@ -13,14 +13,14 @@ export default function AboutMe() {
                 <title>Shifa Somji</title>
                 <link rel="icon" href="/icon.ico" />
             </Head>
-            <NavBar currPage="aboutMe" />
-            <img
-                src="/Seattle.jpg"
-                alt="seattle photo"
-                className={styles.photo}
-            />
             <div>
                 <p className={shared.titleText}>About Me</p>
+                <NavBar currPage="aboutMe" />
+                <img
+                    src="/Seattle.jpg"
+                    alt="seattle photo"
+                    className={styles.photo}
+                />
                 <div
                     className={[shared.container, styles.newContainer].join(
                         " "
