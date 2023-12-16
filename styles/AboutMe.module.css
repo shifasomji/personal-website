@@ -3,7 +3,8 @@
     border-radius: 5px;
     align-self: center;
     aspect-ratio: 3/2;
-    margin-left: 50px;
+    display: block;
+    margin: auto;
     box-shadow: 0.5rem 1rem 10px;
 }
 
