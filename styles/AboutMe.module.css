@@ -1,8 +1,9 @@
 .photo {
-    width: 30%;
+    width: 25%;
     border-radius: 5px;
     align-self: center;
     aspect-ratio: 3/2;
+    margin-left: 50px;
     box-shadow: 0.5rem 1rem 10px;
 }
 

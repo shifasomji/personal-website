@@ -40,10 +40,10 @@ export default function AboutMe() {
                                 I am the CEO of Chess4Girls, a non-profit organization dedicated to closing the gender gap in chess. At Harvey Mudd, I served as the secretary for the Society of Women Engineers and the co-chair for the Women's Chapter of the Association of Computing Machinery at the Claremont Colleges. Through both of these experiences, I have engaged women and allies of women in computer science and other STEM fields.
                             </p>
                             <p>
-                                In my free time, I enjoy listening to music, reading, and playing chess. Check out my <a href="https://open.spotify.com/user/maycure">Spotify</a> for my playlists and my <a href="https://www.goodreads.com/user/show/166951384-shifa">Goodreads</a> to see what I'm reading currently!
+                                In my free time, I enjoy listening to music, reading, and playing chess. Check out my <a href="https://open.spotify.com/user/maycure">Spotify</a> for my playlists and my <a href="https://www.goodreads.com/user/show/166951384-shifa">Goodreads</a> to see what I'm reading currently.
                             </p>
                             <p>
-                                I would love to hear from you. Feel free to email me at{" "}
+                                I would love to hear from you! Feel free to email me at{" "}
                                 <a href="mailto:ssomji@purdue.edu">
                                     ssomji@purdue.edu
                                 </a>
