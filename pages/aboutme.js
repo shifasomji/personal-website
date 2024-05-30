@@ -14,9 +14,9 @@ export default function AboutMe() {
                 <link rel="icon" href="/icon.ico" />
             </Head>
             <div>
+                <p className={shared.titleText}>About Me</p>
                 <NavBar currPage="aboutMe" />
-                <p className={styles.title}>About Me</p>
-                <img 
+                <img
                     src="/Purdue.jpg"
                     alt="purdue photo"
                     className={styles.photo}
@@ -29,7 +29,7 @@ export default function AboutMe() {
                     <div style={{ marginLeft: "2%" }} data-aos="fade-left">
                         <div
                             style={{
-                                marginTop: "2%",
+                                marginTop: "5%",
                                 fontSize: "18px",
                             }}
                         >
