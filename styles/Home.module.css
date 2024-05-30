@@ -27,6 +27,7 @@
 .title {
     font-size: 40px;
     font-weight: 600;
+    margin-right: 2%;
 }
 
 /* .title,
@@ -131,7 +132,8 @@
 }
 
 .textBox {
-    margin-top: 2%;
+    margin-top: 3%;
+    margin-right: 5%;
     font-size: 18px;
     line-height: 1.5em;
 }

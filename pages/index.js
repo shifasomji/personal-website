@@ -43,9 +43,10 @@ export default function Home() {
 
                   <div className={styles.textBox}>
                       <p className="animate__slideInUp">
-                          I am passionate about applying technology to all 
-                          aspects of our lives. I am especially interested in 
-                          the intersection of healthcare, business, and biology with computer science.  
+                          I am passionate about applying technology to 
+                          all aspects of our lives. I am especially interested 
+                          in robotics, human-robot interaction, personalized healthcare, 
+                          and motion planning and prediction.  
                       </p>
                   </div>
               </div>
