@@ -42,15 +42,6 @@ export default function Footer() {
                 </li>
                 <li className={styles.horizontal}>
                     <a
-                        href="https://drive.google.com/file/d/1YPbwdXs0wcUsJdQ_bQRnwQd0Yo_xEccc/view"
-                        className={styles.noHighlight}
-                        target="_blank"
-                    >
-                        <Icon icon={filePdfO} />
-                    </a>
-                </li>
-                <li className={styles.horizontal}>
-                    <a
                         href="mailto:ssomji@purdue.edu"
                         target="_blank"
                         className={styles.noHighlight}
