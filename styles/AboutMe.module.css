@@ -5,7 +5,15 @@
     aspect-ratio: 3/2;
     display: block;
     margin: auto;
-    box-shadow: 0.5rem 1rem 1px;
+    margin-top: 3%;
+    box-shadow: 0.5rem 0.5rem 0.5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0% 35%;
 }
 
 @media (max-width: 600px) {
